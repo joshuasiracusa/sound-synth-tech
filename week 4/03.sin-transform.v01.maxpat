@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 784.0, 82.0, 681.0, 836.0 ],
+		"rect" : [ 495.0, 82.0, 970.0, 836.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -387,7 +387,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ -197.322017192840576, 343.0, 150.0, 34.0 ],
-					"presentation_linecount" : 2,
 					"text" : "bank of sinusoidal oscillators"
 				}
 
@@ -668,8 +667,7 @@
 					"id" : "obj-9",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
+					"numoutlets" : 0,
 					"patching_rect" : [ 596.237276315689087, 172.0, 96.0, 22.0 ],
 					"text" : "SDIF-buffer josh"
 				}
@@ -742,7 +740,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 92.0, 110.0, 82.0, 22.0 ],
-					"text" : "0., 32, 32000."
+					"text" : "0., 32. 32000."
 				}
 
 			}
@@ -1064,10 +1062,6 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "SDIF-buffer.mxe64",
-				"type" : "mx64"
-			}
-, 			{
 				"name" : "SDIF-tuples.mxe64",
 				"type" : "mx64"
 			}

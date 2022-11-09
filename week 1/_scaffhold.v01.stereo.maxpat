@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 1,
-			"revision" : 11,
+			"minor" : 3,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 50.0, 682.0, 168.0, 116.0 ],
+		"rect" : [ 34.0, 76.0, 1033.0, 843.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,18 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"color" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
+					"id" : "obj-1",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 64.0, 95.0, 78.0, 22.0 ],
+					"text" : "js.midi.in.v01"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-3",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
@@ -55,7 +67,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 61.5, 114.0, 89.0, 22.0 ],
+					"patching_rect" : [ 61.5, 146.0, 89.0, 22.0 ],
 					"text" : "js.sound.in.v01"
 				}
 
@@ -63,15 +75,22 @@
  ],
 		"lines" : [  ],
 		"dependency_cache" : [ 			{
+				"name" : "js.midi.in.v01.maxpat",
+				"bootpath" : "~/OneDrive/Desktop/college/semester 7/Sound Synthesis Techniques & Creative Coding/sound-synth-tech/week 1",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "js.sound.in.v01.maxpat",
-				"bootpath" : "~/OneDrive/Desktop/college/semester 7/Sound Synthesis Techniques & Creative Coding/week 1",
+				"bootpath" : "~/OneDrive/Desktop/college/semester 7/Sound Synthesis Techniques & Creative Coding/sound-synth-tech/week 1",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "js.sound.out.v01.maxpat",
-				"bootpath" : "~/OneDrive/Desktop/college/semester 7/Sound Synthesis Techniques & Creative Coding/week 1",
+				"bootpath" : "~/OneDrive/Desktop/college/semester 7/Sound Synthesis Techniques & Creative Coding/sound-synth-tech/week 1",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1

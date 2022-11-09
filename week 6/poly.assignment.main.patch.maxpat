@@ -48,7 +48,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 391.0, 200.0, 156.0, 62.0 ],
+					"patching_rect" : [ 391.0, 200.0, 158.0, 62.0 ],
 					"text" : "note: do not adjust attack time to be greater than duration; the audio will peak",
 					"textcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
 				}
@@ -165,7 +165,7 @@
 					"numoutlets" : 5,
 					"outlettype" : [ "signal", "signal", "", "float", "list" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 43.0, 454.999995946884155, 48.0, 136.0 ],
+					"patching_rect" : [ 43.0, 451.999995946884155, 48.0, 136.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.gain~",
@@ -425,7 +425,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 149.0, 365.0, 50.0, 64.0 ],
-					"text" : "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+					"text" : "1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0"
 				}
 
 			}
@@ -533,7 +533,6 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-9",

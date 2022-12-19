@@ -1272,7 +1272,7 @@
 					"numoutlets" : 6,
 					"outlettype" : [ "float", "float", "float", "float", "list", "" ],
 					"patching_rect" : [ 229.0, 205.0, 335.0, 111.0 ],
-					"setmode" : 3
+					"setmode" : 1
 				}
 
 			}
